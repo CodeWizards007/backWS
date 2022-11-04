@@ -1,0 +1,14 @@
+PREFIX ns: <http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+
+
+SELECT ?Directeur ?NOMComplet ?CIN ?Fonction
+WHERE{
+
+	 ?Directeur rdf:type ns:Directeur;
+	 ns:NOMComplet ?NOMComplet;
+	 ns:CIN ?CIN;
+	 ns:Fonction ?Fonction;
+	 FILTER (?Fonction="PDG")
+	}

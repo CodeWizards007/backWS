@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#travailledanslamemeequipe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#travailledanslamemeequipe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#travaillesous -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#travaillesous">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#travaillesouslememedepartement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#travaillesouslememedepartement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#CIN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#CIN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Fonction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Fonction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#NOMComplet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#NOMComplet">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Comptable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Comptable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#DGA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#DGA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_RH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_RH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_de_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_de_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_financier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_financier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ingenieur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ingenieur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#PDG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#PDG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_comptabilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_comptabilité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_controle_de_gestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_controle_de_gestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_departement_de_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_departement_de_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_gestion_du_personnels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_gestion_du_personnels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_logistique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_logistique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_paie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_paie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_recrutement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable_recrutement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ingenieur"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05263589</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingenieur de production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achref ayari</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ingenieur"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09652314</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingenieur de production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aLI kAMOUN</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ayman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ayman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#PDG"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14689012</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDG</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ayman bejaoui</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_de_production"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Sarra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14689033</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directeur de production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">faten mahnouch</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Comptable"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09871657</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comptable</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ferid mrad</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14689000</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Responsable logistique</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iheb Mabrouki</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_financier"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Sarra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14689577</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directeur Financier</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">karim chalouah</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10689012</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Responsable departement et production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laila said</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Comptable"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12356790</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comptable</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monia messelmani</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02145325</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien de production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouldi Lakhel</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09234678</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien controle de gestion</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nabil wetherfi</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Sarra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Sarra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#DGA"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ayman"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14689013</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DGA</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sara Abderazzk</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12674590</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien controle de gestion</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wissal fatnassi</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Comptable"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09847565</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comptable</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yosra bouafif</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Youssef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Youssef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Directeur_RH"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Sarra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#chahrazed"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#yassine"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11689012</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directeur RH</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">youssef Bayrem</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14852365</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien de production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alya louti</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12589647</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien logistique</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">azer malouli</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14600012</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responsable paie</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bechir ben yahia</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#chahrazed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#chahrazed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Youssef"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Youssef"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#yassine"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13089012</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responsable de recrutement</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chahrazed almia</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14523986</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien logistique</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">karima nouni</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08458997</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien de production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">khawla Gessmi</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#mourad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Technicien"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travailledanslamemeequipe rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Achref"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ali"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Faten"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Iheb"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Laila"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Mouldi"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#alya"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#azer"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#karima"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#khawla"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06541874</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technicien de production</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mourad tbib</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14889012</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responsable comptabilite</Fonction>
+        <NOMComplet>soumaya kaabi</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#yassine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#yassine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Youssef"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Youssef"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#chahrazed"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14111012</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responsable gestion du personnel</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yassine alouane</NOMComplet>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#zehid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Responsable"/>
+        <travaillesous rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Ferid"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Karim"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Monia"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Nabil"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Wissal"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#Yosra"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#bechir"/>
+        <travaillesouslememedepartement rdf:resource="http://www.semanticweb.org/yosra/ontologies/2021/9/untitled-ontology-6#soumaya"/>
+        <CIN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14689047</CIN>
+        <Fonction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">responsable controle de gestion</Fonction>
+        <NOMComplet rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zehid aamar</NOMComplet>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
